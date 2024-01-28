@@ -5,11 +5,6 @@
 * */
 data class Domicilio(val calle:String, val numero: Int) {
 
-
-
-
-
-
     fun dirCompleta(){
         println("El domicilio del cliente es:  calle $calle, numero $numero")
     }
